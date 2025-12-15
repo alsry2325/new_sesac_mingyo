@@ -29,6 +29,7 @@ class Softmax:
         dx -= self.out * sumdx
         return dx
 
+#Attention: 문맥에 따라 집중할 단어를 결정하는 방식을 의미
 
 N, T, H = 3, 5, 4 
 #N : 샘플(문장) 개수
