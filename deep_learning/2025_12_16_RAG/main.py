@@ -23,4 +23,5 @@ from prompts import initial_input,prompt_chain
 
 # md.prompt_chain_workflow_2(initial_input, prompt_chain)
 #비동기형식
+
 asyncio.run(md.main())
